@@ -4,37 +4,37 @@ Business improvement consultancy website.
 
 **Your business. Improved with AI.**
 
-We uncover costly inefficiencies, redesign outdated processes and implement practical improvements that help established businesses operate more effectively.
-
 ## Status
 
-- Phase: 1 Foundation (initial prototype)
-- Architecture: Astro (static) for Cloudflare Pages
-- Separate codebase from AI Branded and AI Verified
-- No production deployment yet
-- Contact form is a prototype only — submissions are not delivered
+- Phase: 1 corrections (secure prototype candidate)
+- Architecture: Astro 7.4.0 (static) — Node.js >=22.22.0
+- Branch: dev/phase-1-corrections
+- No production deployment. No Cloudflare Pages project created.
+- Enquiry form is disabled: no <form> element, fields disabled, no data collected or transmitted.
+
+## Requirements
+
+- Node.js >=22.22.0 (see .nvmrc and package.json engines)
 
 ## Development
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
 ## Build
 
 ```bash
+npm ci
 npm run build
 ```
 
-Output is in `dist/`.
-
-## Deployment
-
-Cloudflare Pages (separate project). Environment variables and secrets must remain separate. Never commit credentials.
+Output in `dist/`.
 
 ## Notes
 
-- No public pricing, ROI claims, or service guarantees without approval.
-- Do not invent team members, testimonials, physical office, or customer stories.
-- Canonical domain: https://aiimproved.io
+- Assessment pricing remains unpublished.
+- No invented claims, team, testimonials, or results.
+- Separate from other brands.
+- Deployment not authorized.
