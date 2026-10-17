@@ -1,0 +1,130 @@
+---
+const title = "AI Improved — Your business. Improved with AI.";
+const description = "We uncover costly inefficiencies, redesign outdated processes and implement practical improvements that help established businesses operate more effectively.";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href="https://aiimproved.io/" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content="https://aiimproved.io/" />
+    <meta property="og:type" content="website" />
+    <style>
+      :root {
+        --bg: #FAFBFC;
+        --text: #0F172A;
+        --text-secondary: #475569;
+        --accent: #0F766E;
+        --accent-hover: #115E59;
+        --border: #E2E8F0;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      header, main, footer { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+      header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); }
+      .logo { font-weight: 700; font-size: 1.25rem; color: var(--text); text-decoration: none; }
+      nav a { margin-left: 1.5rem; color: var(--text-secondary); text-decoration: none; }
+      nav a:hover { color: var(--accent); }
+      .hero { padding: 4rem 0 2rem; }
+      .hero h1 { font-size: 2.75rem; line-height: 1.1; margin: 0 0 1rem; font-weight: 600; }
+      .hero p { font-size: 1.25rem; color: var(--text-secondary); max-width: 42rem; }
+      .cta {
+        display: inline-block;
+        background: var(--accent);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        margin-top: 1.5rem;
+      }
+      .cta:hover { background: var(--accent-hover); }
+      section { padding: 3rem 0; border-top: 1px solid var(--border); }
+      h2 { font-size: 1.75rem; margin-top: 0; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+      .card { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+      footer { border-top: 1px solid var(--border); color: var(--text-secondary); font-size: 0.875rem; }
+      @media (max-width: 640px) {
+        .hero h1 { font-size: 2rem; }
+        header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+        nav a { margin-left: 0; margin-right: 1rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">AI Improved</a>
+      <nav>
+        <a href="#how-we-work">How We Work</a>
+        <a href="#what-we-improve">What We Improve</a>
+        <a href="#assessment">Assessment</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Your business. Improved with AI.</h1>
+        <p>We uncover costly inefficiencies, redesign outdated processes and implement practical improvements that help established businesses operate more effectively.</p>
+        <a href="#contact" class="cta">Discuss a business improvement</a>
+      </section>
+
+      <section id="how-we-work">
+        <h2>How We Work</h2>
+        <p>Find the business problem first. Use AI where it genuinely helps.</p>
+        <div class="grid">
+          <div class="card"><strong>1. Discover</strong><p>Understand goals, current processes, and constraints.</p></div>
+          <div class="card"><strong>2. Assess</strong><p>Identify bottlenecks, wasted effort, and the value of improvement.</p></div>
+          <div class="card"><strong>3. Design</strong><p>Prioritize realistic opportunities and redesign workflows.</p></div>
+          <div class="card"><strong>4. Implement</strong><p>Build only what is approved. Test and document.</p></div>
+          <div class="card"><strong>5. Measure</strong><p>Compare performance against the original baseline.</p></div>
+        </div>
+      </section>
+
+      <section id="what-we-improve">
+        <h2>What We Improve</h2>
+        <p>Examples of operational areas we examine. These are not fixed-price packages.</p>
+        <div class="grid">
+          <div class="card"><h3>Operational efficiency</h3><p>Bottlenecks, handoffs, and wasted effort in core workflows.</p></div>
+          <div class="card"><h3>Sales and customer workflows</h3><p>Quoting, scheduling, follow-up, and CRM processes.</p></div>
+          <div class="card"><h3>Administration and documents</h3><p>Onboarding, document handling, and internal coordination.</p></div>
+          <div class="card"><h3>Reporting and decisions</h3><p>Visibility into performance and clearer decision support.</p></div>
+        </div>
+      </section>
+
+      <section id="assessment">
+        <h2>Business Assessment</h2>
+        <p>An assessment comes before implementation. We examine clearly defined processes, establish problems and opportunities, and produce a practical assessment with an estimated business case. Pricing and scope details are provisional until approved.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Discuss a business improvement</h2>
+        <p>Prototype form only. Submissions are not yet delivered.</p>
+        <form style="max-width: 32rem;">
+          <label>Name<br><input type="text" name="name" required style="width:100%; padding:0.5rem; margin:0.25rem 0 1rem; border:1px solid var(--border); border-radius:4px;" /></label>
+          <label>Business name<br><input type="text" name="business" required style="width:100%; padding:0.5rem; margin:0.25rem 0 1rem; border:1px solid var(--border); border-radius:4px;" /></label>
+          <label>Work email<br><input type="email" name="email" required style="width:100%; padding:0.5rem; margin:0.25rem 0 1rem; border:1px solid var(--border); border-radius:4px;" /></label>
+          <label>Website<br><input type="url" name="website" style="width:100%; padding:0.5rem; margin:0.25rem 0 1rem; border:1px solid var(--border); border-radius:4px;" /></label>
+          <label>Business problem or process to improve<br><textarea name="problem" required rows="4" style="width:100%; padding:0.5rem; margin:0.25rem 0 1rem; border:1px solid var(--border); border-radius:4px;"></textarea></label>
+          <button type="submit" class="cta" style="border:none; cursor:pointer;">Submit enquiry (prototype)</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>AI Improved — Business diagnosis, process redesign, technology implementation and performance improvement.</p>
+      <p>Distinct from AI Branded and AI Verified. No invented testimonials, metrics, or claims.</p>
+    </footer>
+  </body>
+</html>
